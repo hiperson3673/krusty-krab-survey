@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<!--Typographic scale based on classical ratio 1:2, base = 18pt-->
+<html>
+
+<head>
+
+  <title>Krusty Survey</title>
+  <link rel="shortcut icon" type="image/jpg" href="img/krusty-krab-hat.jpg"> <!--Favicon-->
+  <link rel="stylesheet" href="styles.css">
+  <audio autoplay loop> <!--BGM-->
+    <source src="audio/krusty-krab-theme.mp3" type="audio/mpeg">
+ </audio>
+
+</head>
+<main>
+
+  <body>
+    <div id="body-content">
+    <div class="header-container">
+      <h1><img id="krusty-logo" src="./img/krusty-krab-logo.png" alt="Krusty Krab logo">Customer Satisfaction Survey
+      </h1>
+    </div>
+    <br>
+
+    <!--Sub-Header-->
+    <h2>Thank you for your patronage. Please tell us about your most recent dining experience with us.
+      We'd love to hear your feedback!</h2>
+      <br>
+    <form id="survey-form">
+
+      <!--Date of Visit-->
+      <label style="font-size:28pt">Date of Visit <input id="date-of-visit" type="date"
+          placeholder="Enter your first and last name" required></label>
+      <br>
+
+      <!--Ratings-->
+      <p style="font-size:28pt">Please choose the best answer for each of the following:</p>
+
+      <table id="survey">
+        <tr id="survey-top-row">
+          <th></th>
+          <th>Strongly Agree</th>
+          <th>Agree</th>
+          <th>Neutral</th>
+          <th>Disagree</th>
+          <th>Strongly Disagree</th>
+        </tr>
+        <tr>
+          <td style="text-align:left">The menu was easy to read</td>
+          <td><input name="row2" value="strongly-agree" type="radio" required></td>
+          <td><input name="row2" value="agree" type="radio" required></td>
+          <td><input name="row2" value="neutral" type="radio" required></td>
+          <td><input name="row2" value="disagree" type="radio" required></td>
+          <td><input name="row2" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">My order was taken promptly</td>
+          <td><input name="row3" value="strongly-agree" type="radio" required></td>
+          <td><input name="row3" value="agree" type="radio" required></td>
+          <td><input name="row3" value="neutral" type="radio" required></td>
+          <td><input name="row3" value="disagree" type="radio" required></td>
+          <td><input name="row3" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">My order was taken correctly</td>
+          <td><input name="row4" value="strongly-agree" type="radio" required></td>
+          <td><input name="row4" value="agree" type="radio" required></td>
+          <td><input name="row4" value="neutral" type="radio" required></td>
+          <td><input name="row4" value="disagree" type="radio" required></td>
+          <td><input name="row4" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">My order was prepared and served promptly</td>
+          <td><input name="row5" value="strongly-agree" type="radio" required></td>
+          <td><input name="row5" value="agree" type="radio" required></td>
+          <td><input name="row5" value="neutral" type="radio" required></td>
+          <td><input name="row5" value="disagree" type="radio" required></td>
+          <td><input name="row5" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">My order was prepared and served correctly</td>
+          <td><input name="row6" value="strongly-agree" type="radio" required></td>
+          <td><input name="row6" value="agree" type="radio" required></td>
+          <td><input name="row6" value="neutral" type="radio" required></td>
+          <td><input name="row6" value="disagree" type="radio" required></td>
+          <td><input name="row6" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">The food tasted fresh</td>
+          <td><input name="row7" value="strongly-agree" type="radio" required></td>
+          <td><input name="row7" value="agree" type="radio" required></td>
+          <td><input name="row7" value="neutral" type="radio" required></td>
+          <td><input name="row7" value="disagree" type="radio" required></td>
+          <td><input name="row7" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">The food was reasonably priced</td>
+          <td><input name="row8" value="strongly-agree" type="radio" required></td>
+          <td><input name="row8" value="agree" type="radio" required></td>
+          <td><input name="row8" value="neutral" type="radio" required></td>
+          <td><input name="row8" value="disagree" type="radio" required></td>
+          <td><input name="row8" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Employees were polite</td>
+          <td><input name="row9" value="strongly-agree" type="radio" required></td>
+          <td><input name="row9" value="agree" type="radio" required></td>
+          <td><input name="row9" value="neutral" type="radio" required></td>
+          <td><input name="row9" value="disagree" type="radio" required></td>
+          <td><input name="row9" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">The restaurant was clean</td>
+          <td><input name="row10" value="strongly-agree" type="radio" required></td>
+          <td><input name="row10" value="agree" type="radio" required></td>
+          <td><input name="row10" value="neutral" type="radio" required></td>
+          <td><input name="row10" value="disagree" type="radio" required></td>
+          <td><input name="row10" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Napkins and condiments were freely available</td>
+          <td><input name="row11" value="strongly-agree" type="radio" required></td>
+          <td><input name="row11" value="agree" type="radio" required></td>
+          <td><input name="row11" value="neutral" type="radio" required></td>
+          <td><input name="row11" value="disagree" type="radio" required></td>
+          <td><input name="row11" value="strongly-disagree" type="radio" required></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">There was sufficient seating available</td>
+          <td><input name="row12" value="strongly-agree" type="radio" required></td>
+          <td><input name="row12" value="agree" type="radio" required></td>
+          <td><input name="row12" value="neutral" type="radio" required></td>
+          <td><input name="row12" value="disagree" type="radio" required></td>
+          <td><input name="row12" value="strongly-disagree" type="radio" required></td>
+        </tr>
+      </table>
+      <br>
+
+      <!--Comments & Suggestions-->
+      <p style="font-size:28pt"> <img id="krabby-patty" src="img/krabby-patty.png" alt="Krabby Patty" style="width:40px">Comments
+        or suggestions?<img id="krabby-patty" src="img/krabby-patty.png" alt="Krabby Patty" style="width:40px"></p>
+      <br><textarea id="comments-box"></textarea>
+
+      <p style="font-size:20pt">Thank you for your feedback! Please click "Submit" below to finish this survey.</p>
+      <!--Submit button-->
+      <input id="submit" type="submit">
+
+    </form>
+
+  </div>
+  </body>
+</main>
+<footer>
+  <div id="footer-content">
+    <!--Krusty Krab exterior
+      <img id="krusty-shop" src="img/krusty-shop.png" alt="The Krusty Krab" style="width:500px;height:200px">
+    -->
+    <img src="img/mr-krabs.png" alt="Mr. Krabs" width="200px">
+      <p id="copyright"><img src="img/copyright-logo.png" alt="Copyright logo" width="20px">2021 Krusty Krab Bikini Bottom, Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+</html>

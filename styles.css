@@ -1,0 +1,102 @@
+
+    html {
+        background-color: #c8e1ed;
+      }
+  
+      body {
+        background-image: url("");
+        position: relative;
+        margin: 50px;
+        border-style: solid;
+        border-color: #000;
+        font-family: "Krabby Patty", Helvetica, sans-serif;
+        font-size: 18pt;
+        color: #be1e2f;
+        text-shadow: 1.5px 1px #000;
+        background-color: #b6c5cd;
+      }
+  
+      h1 {
+        position: relative;
+        text-align: center;
+        font-size: 48pt;
+      }
+  
+  
+      #body-content {
+        position: relative;
+        margin: 20px;
+      }
+  
+      #footer-content {
+        position: relative;
+        margin: 20px;
+      }
+  
+      #date-of-visit {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+      }
+  
+      #krusty-logo {
+        width: 125px;
+        float: left;
+      }
+  
+      #survey {
+        position: relative;
+        border-style: solid;
+        table-layout: fixed;
+      }
+  
+      #survey tr {background-color: #c8e1ed;}
+  
+      #survey tr:hover {background-color: #ffffff}
+  
+      #survey-top-row {
+        word-wrap: normal;
+        
+      }
+  
+      #survey td {
+        text-align:center
+      }
+  
+      .header-logo {
+        float: left;
+        margin-right: 5px;
+      }
+  
+      .row {
+        display: flex;
+      }
+  
+      .column {
+        flex: 50%;
+        padding: 0px;
+      }
+  
+      #krabby-patty {
+        position: relative;
+        top: 15px;
+      }
+  
+      #comments-box {
+        position: relative;
+        bottom: 50px;
+        width: 1005px;
+        height: 200px;
+      }
+  
+      #submit {
+        background-color: white;
+        color: #be1e2f;
+        font-family: "Krabby Patty";
+        font-size: 24pt;
+  
+      }
+  
+      #copyright {
+        font-size: 16pt;
+      }
